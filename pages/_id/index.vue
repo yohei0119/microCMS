@@ -2,6 +2,7 @@
   <main>
     <h1>{{ title }}</h1>
     <p>{{ publishedAt }}</p>
+    <p>{{ category && category.name }}</p>
     <div v-html="body"></div>
   </main>
 </template>
